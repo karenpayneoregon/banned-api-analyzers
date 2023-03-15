@@ -6,7 +6,7 @@
 		<Nullable>disable</Nullable>
 	</PropertyGroup>
 	<ItemGroup>
-		<AdditionalFiles Include="C:\\OED\\DotnetLand\\Banned\\BannedSymbols1.txt" />
+		<AdditionalFiles Include="BannedSymbols.txt" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageReference Include="Microsoft.CodeAnalysis.BannedApiAnalyzers" Version="3.3.4">
