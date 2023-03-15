@@ -39,7 +39,7 @@ Points to a file in the project root folder.
 
 ```xml
 <ItemGroup>
-	<AdditionalFiles Include="BannedSymbols.txt" />
+    <AdditionalFiles Include="BannedSymbols.txt" />
 </ItemGroup>
 ```
 
