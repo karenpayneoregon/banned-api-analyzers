@@ -13,8 +13,6 @@ internal partial class Program
         P2 person2 = new();
 
 
-        AnsiConsole.MarkupLine("[yellow]Hello[/]");
-
         Console.ReadLine();
     }
 
