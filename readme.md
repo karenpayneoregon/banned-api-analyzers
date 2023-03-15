@@ -7,7 +7,7 @@ Example BannedSymbols.txt file
 ```
 P:System.DateTime.Now;Use System.DateTime.UtcNow instead
 T:Library1.Models.Person;Use Library2.Models.Person which uses DateOnly rather than DateTime.
-T:Newtonsoft.Json.JsonConvert;Use System.Text.Json.JsonSerializer.Serialize instead
+T:Newtonsoft.Json.JsonConvert;Use System.Text.Json.JsonSerializer instead
 ```
 
 ## Application1 project
