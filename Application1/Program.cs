@@ -6,9 +6,12 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        P1 person1 = new();
-        person1.BirthDate = DateTime.Now;
-        
+        P1 person1 = new()
+        {
+            BirthDate = DateTime.Now,
+            Type = "Owner"
+        };
+
         P2 person2 = new();
 
         Console.ReadLine();
@@ -20,10 +23,11 @@ internal class Program
         {
             FirstName = "Jim", 
             LastName = "Smith", 
-            Id = 1, BirthDate = 
-                new DateOnly(1978,1,2), 
+            Id = 1, 
+            BirthDate = new DateOnly(1978,1,2), 
             Title = "Sir"
         };
+
         string output = JsonConvert.SerializeObject(person, Formatting.Indented);
     }
 }

@@ -13,7 +13,7 @@ public class JsonOperations
             FirstName = "Jim", 
             LastName = "Smith", 
             BirthDate = new DateTime(1945,2,12), 
-            Title = "Sir"
+            Type = "Sir"
         };
         string output = JsonConvert.SerializeObject(person, Formatting.Indented);
     }

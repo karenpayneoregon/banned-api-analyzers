@@ -36,6 +36,8 @@
 	<ItemGroup>
 		<Using Include="Library1.Models.Person" Alias="P1" />
 		<Using Include="Library2.Models.Person" Alias="P2" />
+		<Using Include="System.Data.DataTable" Alias="DT" />
+		
 	</ItemGroup>
 
 </Project>
