@@ -1,1 +1,3 @@
 ﻿T:Newtonsoft.Json.JsonConvert;Use System.Text.Json.JsonSerializer instead
+T:System.Data.SqlClient.SqlConnection; Use EF Core instead
+T:Microsoft.Data.SqlClient.SqlConnection; Use EF Core instead

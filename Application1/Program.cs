@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using Library1.Classes;
+using Newtonsoft.Json;
 
 namespace Application1;
 
@@ -13,6 +14,8 @@ internal class Program
         };
 
         P2 person2 = new();
+
+        DataOperations.ReadData();
 
         Console.ReadLine();
     }
